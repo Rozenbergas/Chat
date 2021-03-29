@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat", "Chat\Chat.csproj", "{B0C818B0-CC0A-4F00-A3A9-36ADF0CA147D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.Web", "Chat\Chat.Web.csproj", "{B0C818B0-CC0A-4F00-A3A9-36ADF0CA147D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.Console", "Chat.Console\Chat.Console.csproj", "{9DA91956-9F03-48BF-90D5-4B54DE9731FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.Logic", "Chat.Logic\Chat.Logic.csproj", "{9A4DC832-C25A-4F74-B31A-3A7F364E2CD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{B0C818B0-CC0A-4F00-A3A9-36ADF0CA147D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0C818B0-CC0A-4F00-A3A9-36ADF0CA147D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0C818B0-CC0A-4F00-A3A9-36ADF0CA147D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DA91956-9F03-48BF-90D5-4B54DE9731FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DA91956-9F03-48BF-90D5-4B54DE9731FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DA91956-9F03-48BF-90D5-4B54DE9731FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DA91956-9F03-48BF-90D5-4B54DE9731FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A4DC832-C25A-4F74-B31A-3A7F364E2CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A4DC832-C25A-4F74-B31A-3A7F364E2CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A4DC832-C25A-4F74-B31A-3A7F364E2CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A4DC832-C25A-4F74-B31A-3A7F364E2CD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
